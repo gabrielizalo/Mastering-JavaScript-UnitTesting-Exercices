@@ -1,5 +1,17 @@
 {
-  "name": "",
-  "version": "",
-  "description": "* **[Node.js](https://nodejs.org/en/)**: A JavaScript runtime.\r * **[Mocha](https://mochajs.org)**: A feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.\r * **[Chai](http://chaijs.com)**: A BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.\r * **[Sinon](http://sinonjs.org)**: Standalone test spies, stubs and mocks for JavaScript. Works with any unit testing framework."
+  "name": "MasteringJavaScriptUnitTestingExercices",
+  "version": "0.0.1",
+  "description": "Exercices of the course Mastering JavaScript Unit Testing",
+  "repository": {
+    "type": "git",
+    "url": "https://gabrielporras@bitbucket.org/gabrielporras/masteringjavascriptunittesting.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.1.1",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.6",
+    "standard": "^10.0.2"
+  }
 }

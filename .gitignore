@@ -44,3 +44,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+# Custom
+.idea/
+node_modules/
