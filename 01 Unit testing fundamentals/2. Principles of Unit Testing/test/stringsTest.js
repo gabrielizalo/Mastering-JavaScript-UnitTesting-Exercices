@@ -1,6 +1,6 @@
 // My mocha tests
 
-var strings = require('./strings')
+var strings = require('../strings')
 var assert = require('assert')
 
 describe('strings module', function () {
