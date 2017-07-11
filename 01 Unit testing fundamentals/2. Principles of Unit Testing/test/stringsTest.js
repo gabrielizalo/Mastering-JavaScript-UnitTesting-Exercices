@@ -1,5 +1,3 @@
-// My mocha tests
-
 var strings = require('../strings')
 var assert = require('assert')
 
