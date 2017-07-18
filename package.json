@@ -1,20 +1,21 @@
 {
-  "name"           : "MasteringJavaScriptUnitTestingExercices",
-  "version"        : "0.0.1",
-  "description"    : "Exercices of the course Mastering JavaScript Unit Testing",
-  "repository"     : {
+  "name": "MasteringJavaScriptUnitTestingExercices",
+  "version": "0.0.1",
+  "description": "Exercices of the course Mastering JavaScript Unit Testing",
+  "repository": {
     "type": "git",
-    "url" : "https://github.com/gabrielizalo/MasteringJavaScriptUnitTestingExercices"
+    "url": "https://github.com/gabrielizalo/Mastering-JavaScript-UnitTesting-Exercices"
   },
-  "private"        : true,
+  "private": true,
   "devDependencies": {
-    "chai"    : "^4.1.0",
-    "eslint"  : "^4.2.0",
-    "mocha"   : "^3.4.2",
-    "sinon"   : "^2.3.8",
+    "chai": "^4.1.0",
+    "eslint": "^4.2.0",
+    "jssha": "^2.3.1",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.8",
     "standard": "^10.0.2"
   },
-  "standard"       : {
+  "standard": {
     "globals": [
       "after",
       "afterEach",

@@ -14,7 +14,7 @@ describe('user object', function () {
 
     u.setFirstName(name)
 
-    assert(u.geFullName(), expected)
+    assert.equal(u.geFullName(), expected)
   })
 
   it('should return last name for full name if fist name is not set', function () {
@@ -23,7 +23,7 @@ describe('user object', function () {
 
     u.setLastName(name)
 
-    assert(u.geFullName(), expected)
+    assert.equal(u.geFullName(), expected)
   })
 
   it('should return correct full name when both names are set', function () {
@@ -34,6 +34,6 @@ describe('user object', function () {
     u.setFirstName(first)
     u.setLastName(last)
 
-    assert(u.geFullName(), expected)
+    assert.equal(u.geFullName(), expected)
   })
 })
