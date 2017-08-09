@@ -20,5 +20,7 @@ describe('Calculator', function () {
 
   it('should divide two numbers', test('4 / 2', 2))
 
+  it('should multiply two numbers', test('4 * 4', 16))
+
   it('should respect order of operations', test('4 + 4 / 4', 5))
 })

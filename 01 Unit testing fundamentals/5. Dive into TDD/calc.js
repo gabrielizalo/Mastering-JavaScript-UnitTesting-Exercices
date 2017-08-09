@@ -1,5 +1,5 @@
 module.exports = function (expression) {
-  var operators = ['/', '+', '-']
+  var operators = ['*', '/', '+', '-']
 
   var re = new RegExp('[0-9.]+|[' + operators.join('') + ']', 'g')
 
@@ -22,6 +22,9 @@ module.exports = function (expression) {
         case '/':
           return calculate(tree.left) / calculate(tree.right)
 
+        case '*':
+          return calculate(tree.left) * calculate(tree.right)
+
         default:
           throw new Error('Invalid op')
       }
@@ -43,7 +46,7 @@ module.exports = function (expression) {
   function div () {
     var left = number()
     var next = peek()
-    while (next == '/') {
+    while (next === '/' || next === '*') {
       index++
       var right = number()
       left = {op: next, left: left, right: right}
